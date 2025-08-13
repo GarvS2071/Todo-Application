@@ -45,12 +45,13 @@ This application allows user to:
         - application.properties   Configuration
 
 ## INSTALLATION & SETUP ⚙
-1. **Clone The Repository**
+1. #### Clone The Repository
 ```
 git clone https://github.com/GarvS2071/todo-application.git
 cd todo-application
 ```
-2. **Configure MySQL Database**
+2. #### Configure MySQL Database
+
 Edit the `application.properties` file:
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/todo_db
@@ -59,12 +60,13 @@ spring.datasource.password=YOUR_DB_PASSWORD
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 ```
-3. **Build & Run**
+3. #### Build & Run
 ```
 mvn spring-boot:run
 ```
-4. ### Access the Application
-   Open a browser & go to:
+4. #### Access the Application
+
+Open a browser & go to:
 ```
 http://localhost:8080
 ```

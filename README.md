@@ -51,8 +51,7 @@ git clone https://github.com/GarvS2071/todo-application.git
 cd todo-application
 ```
 2. #### Configure MySQL Database
-
-Edit the `application.properties` file:
+   Edit the `application.properties` file:
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/todo_db
 spring.datasource.username=YOUR_DB_USERNAME
@@ -65,8 +64,7 @@ spring.jpa.show-sql=true
 mvn spring-boot:run
 ```
 4. #### Access the Application
-
-Open a browser & go to:
+   Open a browser & go to:
 ```
 http://localhost:8080
 ```
